@@ -1,2 +1,4 @@
 1. Introduction to Python
-2. Introduction to R
+2. Pandas
+3. Matplotlib
+4. Scikit-learn
