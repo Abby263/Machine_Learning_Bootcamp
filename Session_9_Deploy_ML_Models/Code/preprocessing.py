@@ -2,9 +2,10 @@ import pandas
 from sklearn import preprocessing
 from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeClassifier
+from sklearn.metrics import accuracy_score
 import numpy
 # Load dataset
-url = "C:/Users/Asus/Desktop/Suven/practise_DS/adult.csv"
+url = "adult.csv"
 df = pandas.read_csv(url)
 
 # filling missing values
